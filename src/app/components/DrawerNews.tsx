@@ -181,7 +181,7 @@ export const DrawerNews = ({
               >
                 Example:{" "}
                 <span ref={exampleUrl}>
-                  https://berita-indo-api-next.vercel.app/api/
+                  https://api.berita.asuma.my.id/api/
                   {slugify(data?.news as string)}/
                   {zone ? slugify(zone) + "/" : null}
                   {slugify(type as string)}
