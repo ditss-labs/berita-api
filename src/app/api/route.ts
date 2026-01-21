@@ -4,8 +4,8 @@ export async function GET() {
   return NextResponse.json({
     data: {
       "CNN News": {
-        all: "/api/cnn-news/",
-        type: "/api/cnn-news/:type",
+        all: "/cnn-news/",
+        type: "/cnn-news/:type",
         listType: [
           "nasional",
           "internasional",
@@ -17,8 +17,8 @@ export async function GET() {
         ],
       },
       "CNBC News": {
-        all: "/api/cnbc-news/",
-        type: "/api/cnbc-news/:type",
+        all: "/cnbc-news/",
+        type: "/cnbc-news/:type",
         listType: [
           "market",
           "news",
@@ -29,8 +29,8 @@ export async function GET() {
         ],
       },
       "Republika News": {
-        all: "/api/republika-news/",
-        type: "/api/republika-news/:type",
+        all: "/republika-news/",
+        type: "/republika-news/:type",
         listType: [
           "news",
           "nusantara",
@@ -43,8 +43,8 @@ export async function GET() {
         ],
       },
       "Tempo News": {
-        all: "/api/tempo-news/",
-        type: "/api/tempo-news/:type",
+        all: "/tempo-news/",
+        type: "/tempo-news/:type",
         listType: [
           "nasional",
           "bisnis",
@@ -59,7 +59,7 @@ export async function GET() {
         ],
       },
       "Antara News": {
-        type: "/api/antara-news/:type",
+        type: "/antara-news/:type",
         listType: [
           "terkini",
           "top-news",
@@ -81,7 +81,7 @@ export async function GET() {
         ],
       },
       "Okezone News": {
-        all: "/api/okezone-news",
+        all: "/okezone-news",
         listType: [
           "breaking",
           "sport",
@@ -93,7 +93,7 @@ export async function GET() {
         ],
       },
       "BBC News": {
-        all: "/api/bbc-news",
+        all: "/bbc-news",
         listType: [
           "dunia",
           "berita_indonesia",
@@ -103,11 +103,11 @@ export async function GET() {
         ],
       },
       "Kumparan News": {
-        all: "/api/kumparan-news",
+        all: "/kumparan-news",
       },
       "Tribun News": {
-        all: "/api/tribun-news",
-        withZoneAndType: "/api/tribun-news/:zone/:type",
+        all: "/tribun-news",
+        withZoneAndType: "/tribun-news/:zone/:type",
         zone: [
           "jakarta",
           "jabar",
@@ -175,7 +175,7 @@ export async function GET() {
         ],
       },
       "Zetizen Jawapos News": {
-        all: "/api/zetizen-jawapos-news",
+        all: "/zetizen-jawapos-news",
         listType: [
           "book",
           "movie",
@@ -198,10 +198,10 @@ export async function GET() {
         ],
       },
       Vice: {
-        all: "/api/vice-news",
+        all: "/vice-news",
       },
       "Suara News": {
-        all: "/api/suara-news",
+        all: "/suara-news",
         listType: [
           "news",
           "bisnis",
@@ -216,8 +216,8 @@ export async function GET() {
         ],
       },
       "VOA Indonesia": {
-        all: "/api/voa-news",
+        all: "/voa-news",
       },
     },
   });
-}
+      }
